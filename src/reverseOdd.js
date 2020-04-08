@@ -1,9 +1,14 @@
-let m = +process.argv[2];
+let input = +process.argv[2];
 
-do{
-  number = m-2;
-  console.log(number);
-  m = m-2;
+if(input%2 == 0){
+  console.log("Enter odd number only");
 }
-while(m > 2)
-return number;
+else{
+do{
+  input= input-2;
+  console.log(input);
+  
+}
+while(input > 2)
+return input;
+}
