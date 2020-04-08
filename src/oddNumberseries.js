@@ -1,9 +1,11 @@
-let n = +process.argv[2];
+let input = +process.argv[2];
 
-let i =1;
+if(input%2 != 0){
+let count=1;
   do{
-    number = i;
+    number = count;
     console.log(number);
-    i = i+2;
+    count = count+2;
   }
-  while(number<n)
+  while(number<input)
+}
