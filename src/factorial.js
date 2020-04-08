@@ -6,5 +6,5 @@ do{
   number = number-1;
 }
 while(number >= 1){
-  console.log(fact);
+  console.log("factorial is: ",fact);
 }
